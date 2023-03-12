@@ -40,6 +40,7 @@ body {
   background: #646302;
   color: #888;
   font: 300 16px/22px "Lato", sans-serif;
+  
 }
 
 *,
@@ -199,3 +200,65 @@ p a {
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
+#img1,#img2,#img3 {
+    width: 70%;
+    height: 70%;
+}
+
+.contact-tab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .tab-button {
+    background-color: #646302;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px 3px 0 0;
+    cursor: pointer;
+  }
+  
+  .tab-content {
+    background-color: #fff;
+    border: 1px solid #646302;
+    border-top: none;
+    padding: 20px;
+    border-radius: 0 0 3px 3px;
+    display: none;
+  }
+  
+  .tab-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab-content label {
+    margin-bottom: 5px;
+  }
+  
+  .tab-content input,
+  .tab-content textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .tab-content button {
+    background-color: #646302;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tab-content button:hover {
+    background-color: #646302;
+  }
+  
+  
